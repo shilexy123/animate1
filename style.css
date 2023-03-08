@@ -1,0 +1,58 @@
+/* .animate__animated.animate__rubberBand {
+    animation-duration: 2s;
+    animation-delay: 4s;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+#myDiv {
+    font-size: 2em;
+}
+
+@media screen and (min-width: 300px) and (max-width: 475px) {
+    body {
+        background-color: red;
+    }
+    #myDiv {
+        font-size: 1em;
+    }
+    h1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+#flex-container {
+    display: flex;
+    background-color: lightcoral;
+    padding: 2px;
+    gap: 2px;
+}
+
+#flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+}
